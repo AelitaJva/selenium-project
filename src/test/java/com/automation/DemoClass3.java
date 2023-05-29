@@ -19,6 +19,7 @@ public class DemoClass3 {
 
       WebElement search = driver.findElement(By.xpath("//input[@id='gh-ac']"));
       WebElement searchBtn = driver.findElement(By.xpath("//input[@id='gh-btn']"));
+
       search.sendKeys("laptop");
       searchBtn.click();
 
