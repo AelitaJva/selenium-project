@@ -26,11 +26,8 @@ public class DemoClass5 {
         // 3. Wrap that web element using select class methods
         Select catDropdown = new Select(dropdown);
 
-        // 4. Select the option by using text
+        // 4. Select the option by using text, value, index
         catDropdown.selectByVisibleText("Baby");
-
-
-        // 5. Select the option by using value
         catDropdown.selectByValue("267");
         catDropdown.selectByIndex(1);
 
